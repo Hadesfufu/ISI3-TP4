@@ -3,24 +3,6 @@ package modele;
 import java.util.Observable;
 import logoInit.Constante;
 
-/**
- * @author Thomas PERISSIER et Justine GROLEAU
- */
-
-/**
- * ***********************************************************************
- *
- * Un petit Logo minimal qui devra etre ameliore par la suite
- *
- * Source originale : J. Ferber - 1999-2001
- *
- * Cours de DESS TNI - Montpellier II
- *
- * @version 2.0
- * @date 25/09/2001
- *
- *************************************************************************
- */
 public final class Tortue extends Observable {
 
     private int x, y, direction, colInt, vitesse;

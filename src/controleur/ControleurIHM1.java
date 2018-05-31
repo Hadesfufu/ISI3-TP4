@@ -9,9 +9,6 @@ import javax.swing.JComboBox;
 import modele.Tortue;
 import vue.IHM1;
 
-/**
- * @author Thomas PERISSIER et Justine GROLEAU
- */
 public class ControleurIHM1 implements ActionListener, MouseListener {
     
     private final IHM1 ihm;
@@ -23,10 +20,6 @@ public class ControleurIHM1 implements ActionListener, MouseListener {
         this.tortue = tortue;      
     }
     
-    /**
-     * La gestion des actions des boutons
-     * @param e
-     */
     @Override
     public void actionPerformed(ActionEvent e) {
         String c = e.getActionCommand();
@@ -34,7 +27,6 @@ public class ControleurIHM1 implements ActionListener, MouseListener {
         JComboBox cb;
         switch (c) {
             case "Avancer":
-                System.out.println("commande avancer");
                 try {
                     int v = Integer.parseInt(ihm.getInputValue());                    
                     tortue.avancer(v);                    
@@ -80,7 +72,6 @@ public class ControleurIHM1 implements ActionListener, MouseListener {
         return tortue;
     }
     
-    //Crée une nouvelle tortue
     public void ajouter(int n) {
         Dimension size = ihm.getTortueDessin().getSize();
         Tortue newTortue = new Tortue(Tortue.FormeTortue.CERCLE);
@@ -93,7 +84,6 @@ public class ControleurIHM1 implements ActionListener, MouseListener {
         tortue.notifier();
     }
     
-    //Efface tout et reinitialise la feuille
     public void effacer() {
         for (Tortue t:ihm.getTortueDessin().getTortues()){
             Dimension size = ihm.getTortueDessin().getSize();

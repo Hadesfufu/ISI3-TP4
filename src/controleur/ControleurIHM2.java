@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import modele.Tortue;
 import vue.IHM2;
 
-/**
- * @author Thomas PERISSIER et Justine GROLEAU
- */
 public class ControleurIHM2 implements ActionListener {
     private final IHM2 ihm;
     private final ArrayList<Tortue> tortues;

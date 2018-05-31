@@ -9,25 +9,7 @@ import java.util.Observer;
 import javax.swing.*;
 import modele.Tortue;
 
-/**
- * @author Thomas PERISSIER et Justine GROLEAU
- */
 
-/**
- * ***********************************************************************
- *
- * Un petit Logo minimal qui devra etre ameliore par la suite
- *
- * J. Ferber - 1999-2001
- *
- * Cours de DESS TNI - Montpellier II
- *
- * @version 2.0
- * @date 25/09/
- *
- *
- *************************************************************************
- */
 public final class IHM1 extends JFrame implements Observer {
     
     public static final Dimension VGAP = new Dimension(1, 5);

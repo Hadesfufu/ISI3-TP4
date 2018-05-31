@@ -6,18 +6,6 @@ import java.awt.Graphics;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 import modele.Tortue;
-
-/**
- * @author Thomas PERISSIER et Justine GROLEAU
- */
-
-/**
- * Titre : Logo Description : Un exemple de programme graphique utilisant la
- * celebre Tortue Logo Copyright : Copyright (c) 2000 Societe : LIRMM
- *
- * @author J. Ferber
- * @version 2.0
- */
 public class TortueDessin extends JPanel{
     private final ArrayList<Tortue> tortues;
     
